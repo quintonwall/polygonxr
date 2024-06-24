@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A9678D42C1A351300055D36 /* StockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9678D32C1A350900055D36 /* StockData.swift */; };
+		5A9678D62C1A354400055D36 /* PolygonClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9678D52C1A353D00055D36 /* PolygonClient.swift */; };
+		5A9678D92C1A35BF00055D36 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5A9678D82C1A35BF00055D36 /* Alamofire */; };
+		5AEB433E2C1A27C7007E6299 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 5AEB433D2C1A27C7007E6299 /* RealityKitContent */; };
+		5AEB43402C1A27C7007E6299 /* PolygonXRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEB433F2C1A27C7007E6299 /* PolygonXRApp.swift */; };
+		5AEB43422C1A27C7007E6299 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEB43412C1A27C7007E6299 /* ContentView.swift */; };
+		5AEB43442C1A27C8007E6299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AEB43432C1A27C8007E6299 /* Assets.xcassets */; };
+		5AEB43472C1A27C8007E6299 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AEB43462C1A27C8007E6299 /* Preview Assets.xcassets */; };
+		5AEB43522C1A27C9007E6299 /* PolygonXRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEB43512C1A27C9007E6299 /* PolygonXRTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AEB434E2C1A27C9007E6299 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AEB43302C1A27C7007E6299 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AEB43372C1A27C7007E6299;
+			remoteInfo = PolygonXR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A9678D32C1A350900055D36 /* StockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockData.swift; sourceTree = "<group>"; };
+		5A9678D52C1A353D00055D36 /* PolygonClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonClient.swift; sourceTree = "<group>"; };
+		5AEB43382C1A27C7007E6299 /* PolygonXR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PolygonXR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AEB433C2C1A27C7007E6299 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		5AEB433F2C1A27C7007E6299 /* PolygonXRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonXRApp.swift; sourceTree = "<group>"; };
+		5AEB43412C1A27C7007E6299 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5AEB43432C1A27C8007E6299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AEB43462C1A27C8007E6299 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5AEB43482C1A27C8007E6299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AEB434D2C1A27C9007E6299 /* PolygonXRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolygonXRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AEB43512C1A27C9007E6299 /* PolygonXRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonXRTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AEB43352C1A27C7007E6299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AEB433E2C1A27C7007E6299 /* RealityKitContent in Frameworks */,
+				5A9678D92C1A35BF00055D36 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AEB434A2C1A27C9007E6299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AEB432F2C1A27C7007E6299 = {
+			isa = PBXGroup;
+			children = (
+				5AEB433A2C1A27C7007E6299 /* PolygonXR */,
+				5AEB433B2C1A27C7007E6299 /* Packages */,
+				5AEB43502C1A27C9007E6299 /* PolygonXRTests */,
+				5AEB43392C1A27C7007E6299 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AEB43392C1A27C7007E6299 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AEB43382C1A27C7007E6299 /* PolygonXR.app */,
+				5AEB434D2C1A27C9007E6299 /* PolygonXRTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AEB433A2C1A27C7007E6299 /* PolygonXR */ = {
+			isa = PBXGroup;
+			children = (
+				5A9678D52C1A353D00055D36 /* PolygonClient.swift */,
+				5A9678D32C1A350900055D36 /* StockData.swift */,
+				5AEB433F2C1A27C7007E6299 /* PolygonXRApp.swift */,
+				5AEB43412C1A27C7007E6299 /* ContentView.swift */,
+				5AEB43432C1A27C8007E6299 /* Assets.xcassets */,
+				5AEB43482C1A27C8007E6299 /* Info.plist */,
+				5AEB43452C1A27C8007E6299 /* Preview Content */,
+			);
+			path = PolygonXR;
+			sourceTree = "<group>";
+		};
+		5AEB433B2C1A27C7007E6299 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				5AEB433C2C1A27C7007E6299 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		5AEB43452C1A27C8007E6299 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5AEB43462C1A27C8007E6299 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5AEB43502C1A27C9007E6299 /* PolygonXRTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AEB43512C1A27C9007E6299 /* PolygonXRTests.swift */,
+			);
+			path = PolygonXRTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AEB43372C1A27C7007E6299 /* PolygonXR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AEB43552C1A27C9007E6299 /* Build configuration list for PBXNativeTarget "PolygonXR" */;
+			buildPhases = (
+				5AEB43342C1A27C7007E6299 /* Sources */,
+				5AEB43352C1A27C7007E6299 /* Frameworks */,
+				5AEB43362C1A27C7007E6299 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PolygonXR;
+			packageProductDependencies = (
+				5AEB433D2C1A27C7007E6299 /* RealityKitContent */,
+				5A9678D82C1A35BF00055D36 /* Alamofire */,
+			);
+			productName = PolygonXR;
+			productReference = 5AEB43382C1A27C7007E6299 /* PolygonXR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AEB434C2C1A27C9007E6299 /* PolygonXRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AEB43582C1A27C9007E6299 /* Build configuration list for PBXNativeTarget "PolygonXRTests" */;
+			buildPhases = (
+				5AEB43492C1A27C9007E6299 /* Sources */,
+				5AEB434A2C1A27C9007E6299 /* Frameworks */,
+				5AEB434B2C1A27C9007E6299 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AEB434F2C1A27C9007E6299 /* PBXTargetDependency */,
+			);
+			name = PolygonXRTests;
+			productName = PolygonXRTests;
+			productReference = 5AEB434D2C1A27C9007E6299 /* PolygonXRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AEB43302C1A27C7007E6299 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					5AEB43372C1A27C7007E6299 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					5AEB434C2C1A27C9007E6299 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 5AEB43372C1A27C7007E6299;
+					};
+				};
+			};
+			buildConfigurationList = 5AEB43332C1A27C7007E6299 /* Build configuration list for PBXProject "PolygonXR" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AEB432F2C1A27C7007E6299;
+			packageReferences = (
+				5A9678D72C1A35BF00055D36 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 5AEB43392C1A27C7007E6299 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AEB43372C1A27C7007E6299 /* PolygonXR */,
+				5AEB434C2C1A27C9007E6299 /* PolygonXRTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AEB43362C1A27C7007E6299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AEB43472C1A27C8007E6299 /* Preview Assets.xcassets in Resources */,
+				5AEB43442C1A27C8007E6299 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AEB434B2C1A27C9007E6299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AEB43342C1A27C7007E6299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AEB43422C1A27C7007E6299 /* ContentView.swift in Sources */,
+				5A9678D62C1A354400055D36 /* PolygonClient.swift in Sources */,
+				5AEB43402C1A27C7007E6299 /* PolygonXRApp.swift in Sources */,
+				5A9678D42C1A351300055D36 /* StockData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AEB43492C1A27C9007E6299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AEB43522C1A27C9007E6299 /* PolygonXRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AEB434F2C1A27C9007E6299 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AEB43372C1A27C7007E6299 /* PolygonXR */;
+			targetProxy = 5AEB434E2C1A27C9007E6299 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5AEB43532C1A27C9007E6299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		5AEB43542C1A27C9007E6299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		5AEB43562C1A27C9007E6299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PolygonXR/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quintonwall.PolygonXR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Debug;
+		};
+		5AEB43572C1A27C9007E6299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PolygonXR/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quintonwall.PolygonXR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Release;
+		};
+		5AEB43592C1A27C9007E6299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quintonwall.PolygonXRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PolygonXR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PolygonXR";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		5AEB435A2C1A27C9007E6299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quintonwall.PolygonXRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PolygonXR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PolygonXR";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AEB43332C1A27C7007E6299 /* Build configuration list for PBXProject "PolygonXR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AEB43532C1A27C9007E6299 /* Debug */,
+				5AEB43542C1A27C9007E6299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AEB43552C1A27C9007E6299 /* Build configuration list for PBXNativeTarget "PolygonXR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AEB43562C1A27C9007E6299 /* Debug */,
+				5AEB43572C1A27C9007E6299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AEB43582C1A27C9007E6299 /* Build configuration list for PBXNativeTarget "PolygonXRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AEB43592C1A27C9007E6299 /* Debug */,
+				5AEB435A2C1A27C9007E6299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A9678D72C1A35BF00055D36 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A9678D82C1A35BF00055D36 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A9678D72C1A35BF00055D36 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		5AEB433D2C1A27C7007E6299 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5AEB43302C1A27C7007E6299 /* Project object */;
+}
